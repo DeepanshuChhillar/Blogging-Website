@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <a href="http://localhost:3000/"><button class="editBtn">Back</button></a>
+    <form style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 85vh;"
+         action="http://localhost:3000/commit/?index=<%=id%>" method="post">
+         <% var val=id; val++;%>
+        <label style="font-size: 30px;" for="Text">Please,Edit Post <b>(<%=val%>)</b> 🖋️</label>
+        <textarea class="inputBox"  type="text" id="Text" name="Name_change" placeholder="Updated's Post!" required value="same"></textarea>
+        <input class="authorTab" type="text" name="author" placeholder="Author's Name: Yamini" required maxlength="15">
+        <input class="submitBtn" type="submit" value="Update">
+    </form>
+</div>
+</body>
+</html>

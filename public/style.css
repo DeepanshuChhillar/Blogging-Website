@@ -1,0 +1,105 @@
+body
+{
+    background-color: aqua;
+    background-image: url("./Img2.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    border: 13px solid burlywood;
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.items
+{   
+    width: 80%;
+    border: 3px solid black;
+    background-color: bisque;
+    margin: 2px;
+    overflow-wrap: break-word;
+    padding: 5px;
+}
+
+.inputBox{
+    background-image: url(./img3.jpg);
+    background-size:cover; 
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    resize: none; 
+    width: 35vw;
+    height: 15vw;
+}
+
+.formCenter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.submitBtn
+{
+    background-color: rgb(39, 207, 39);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    margin: 3px 1px;
+    font-size: 1.2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submitBtn:hover
+{
+    background-color: rgb(33, 168, 33);
+    border: 3px solid rgb(33, 168, 33);
+}
+
+
+.editBtn
+{
+    background-color:  rgb(255, 166, 2);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    margin: 3px 1px;
+    height: 2vw;
+    width: 5vw;
+    font-size: 1.2vw;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.editBtn:hover
+{
+    background-color: rgb(236, 162, 23);
+}
+
+.deleteBtn
+{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    margin: 3px 1px;
+    font-size: 1.2vw;
+    height: 2vw;
+    width: 5vw;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.deleteBtn:hover
+{
+    background-color: rgb(225, 57, 57);
+}
+
+.authorTab{
+    margin: 0.5vw;
+    background-color: beige;
+}
+
